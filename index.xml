@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bexchat on Brexchat</title>
+    <link>https://brew4europe.github.io/brexchat/</link>
+    <description>Recent content in Bexchat on Brexchat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://brew4europe.github.io/brexchat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ask</title>
+      <link>https://brew4europe.github.io/brexchat/help/ask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/ask/</guid>
+      <description> Ask open questions. Ask a friend of family member you know who voted to leave about their hopes for wanting to leave the EU.
+For example:
+ &amp;lsquo;Can I ask what you hoped for when you voted to leave the EU&amp;rsquo;
+ </description>
+    </item>
+    
+    <item>
+      <title>Listen</title>
+      <link>https://brew4europe.github.io/brexchat/help/listen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/listen/</guid>
+      <description>This is not about you being right and them being wrong. Try to understand their concerns and motivations. Ask more open questions.
+If they have many concerns, focus on the biggest first.</description>
+    </item>
+    
+    <item>
+      <title>Reflect</title>
+      <link>https://brew4europe.github.io/brexchat/help/reflect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/reflect/</guid>
+      <description> Show you understand. Repeat back what they have said to show that you have really heard what they have to say.
+For example:
+ ‘So, you are worried that the NHS is falling appart?’
+ </description>
+    </item>
+    
+    <item>
+      <title>Agree</title>
+      <link>https://brew4europe.github.io/brexchat/help/agree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/agree/</guid>
+      <description> Find common ground. This may not be easy at first but if you focus on their goals and emotions you will probably find something in common.
+For example:
+ ‘I agree, I&amp;rsquo;m realy worried that in the future the NHS won&amp;rsquo;t be there for me and my family.’
+ </description>
+    </item>
+    
+    <item>
+      <title>Discuss</title>
+      <link>https://brew4europe.github.io/brexchat/help/discuss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/discuss/</guid>
+      <description>Share your personal point of view. Focus on the personal impact of Brexit on you or your family.
+How does this subject impact you and your family?
+For example:
+ Less money for the NHS
+‘We are not going to get the extra £350 million a week for the NHS that we were promised.
+Even Nigel Farage said he could not guarantee we would get that money.
+How is the NHS going to be there for me and my family with less money?</description>
+    </item>
+    
+    <item>
+      <title>We have the facts</title>
+      <link>https://brew4europe.github.io/brexchat/help/facts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/facts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Are you ready?</title>
+      <link>https://brew4europe.github.io/brexchat/help/ready/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/help/ready/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Are you ready?</title>
+      <link>https://brew4europe.github.io/brexchat/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/start/</guid>
+      <description>These 5 steps won&amp;rsquo;t necessarily happen in the order here&amp;hellip; you might have to think on your feet but remember - it&amp;rsquo;s not worth falling out over.
+Some people won&amp;rsquo;t ever change their minds, so don&amp;rsquo;t try. Concentrate on those who might&amp;hellip;
+Have a happy Christmas!
+ </description>
+    </item>
+    
+    <item>
+      <title>Less money for NHS</title>
+      <link>https://brew4europe.github.io/brexchat/subject/nhs/fact1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/subject/nhs/fact1/</guid>
+      <description>&amp;ldquo;We are not going to get the extra £350 million a week for the NHS that we were promised. Even Nigel Farage said he could not guarantee we would get that money.
+How is the NHS going to be there for me and my family with less money?&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>We need EU people to work in NHS</title>
+      <link>https://brew4europe.github.io/brexchat/subject/nhs/fact2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brew4europe.github.io/brexchat/subject/nhs/fact2/</guid>
+      <description>&amp;ldquo;62,000 people from the EU currently work in the NHS.
+But the NHS is still short of 35,000 nurses and nearly 10,000 doctors.
+What would we do without the doctors and nurses from the EU?&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
