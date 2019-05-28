@@ -1,5 +1,8 @@
 ---
 title: The UK does not have to adopt the Euro
+description: The UK can never be forced to adopt the Euro. How will Brexit affect you?
+images:
+- images/facts/currency-c.png
 type: fact
 ---
 
