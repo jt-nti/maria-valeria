@@ -1,6 +1,6 @@
-# Brexchat
+# maria-valeria
 
-TechForUk project to support constructive conversations about Brexit
+This fork of the Brexchat TechForUk project is an experiment to support constructive conversations about immigration.
 
 ## Publishing
 
