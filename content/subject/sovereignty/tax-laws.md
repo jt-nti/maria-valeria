@@ -14,6 +14,6 @@ However, the EU does oversee some tax rules, e.g. minimum rates on VAT, taxes on
 https://fullfact.org/europe/viral-list-about-lisbon-treaty-wrong/ (point 15)
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 If there was a general election tomorrow, which political party do you think would have the best policies for raising and spending taxes?
-{{% /discuss %}}
+{{< /discuss >}}

@@ -10,9 +10,9 @@ The EU's Customs Union & Single Market have removed the need for checks to ensur
 But if the UK leaves the Single Market, the EU can no longer be sure that goods imported into Ireland from UK are of a suitable standard. For example, the EU do not allow chlorinated chicken but the US do.
 This means there would have to be some kind of check on the quality of products between Ireland and the UK. And that breaks the 1998 Good Friday Agreement, the foundations of peace in Ireland.
 
-{{% discuss %}}
+{{< discuss >}}
 Are you worried about Brexit causing problems on the Irish Border?
-{{% /discuss %}}
+{{< /discuss >}}
 
 {{% source %}}
 The BBC's guide to the Irish Border

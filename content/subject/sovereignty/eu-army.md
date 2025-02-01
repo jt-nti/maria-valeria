@@ -10,6 +10,6 @@ Article 42 of the Lisbon Treaty states that a "common defense" (an EU army) woul
 
 {{% source "https://www.bbc.co.uk/news/uk-politics-eu-referendum-36383211" /%}}
 
-{{% discuss %}}
+{{< discuss >}}
 Once we leave the EU we get no say in whether or not an EU army is formed. How does that make us safer?
-{{% /discuss %}}
+{{< /discuss >}}

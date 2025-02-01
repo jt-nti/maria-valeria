@@ -1,8 +1,0 @@
-baseURL = "https://techforuk.github.io/brexchat/"
-languageCode = "en-gb"
-title = "TalkAboutBrex"
-[params]
-  title = "TalkAboutBrex"
-  description = "A Remainer’s guide to discussing Brexit"
-  images = ["images/talk-about-brex.png"]
-  header_image = "/images/leo-sammarco-97559-unsplash.jpg"

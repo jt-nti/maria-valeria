@@ -14,6 +14,6 @@ A simple guide to how the EU works from the BBC:
 http://www.bbc.co.uk/guides/zgjwtyc#zct3wxs
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 As members of the EU we can play a leading role in deciding what the EU should do in the future. How would you like to change the EU?
-{{% /discuss %}}
+{{< /discuss >}}

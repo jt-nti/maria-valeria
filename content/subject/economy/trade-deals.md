@@ -17,6 +17,6 @@ This comes from the Government's own website:
 https://www.gov.uk/government/publications/existing-free-trade-agreements-if-theres-no-brexit-deal/existing-free-trade-agreements-if-theres-no-brexit-deal#before-29-march-2019
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 Do you think we will get a better trade deal with Japan as part of the EU or if we are on our own?
-{{% /discuss %}}
+{{< /discuss >}}

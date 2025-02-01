@@ -1,0 +1,9 @@
+{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS }}
+
+{{- if eq hugo.Environment "development" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- else }}
+  {{- with $style | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{- end }}
+{{- end }}

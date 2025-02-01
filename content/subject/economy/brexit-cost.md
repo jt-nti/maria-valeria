@@ -20,6 +20,6 @@ Member of The Bank of England's Monetary Policy Committee
 https://www.bankofengland.co.uk/-/media/boe/files/speech/2019/the-economic-outlook-speech-by-gertjan-vlieghe.pdf
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 How much more will we lose? How would you have spent that money?
-{{% /discuss %}}
+{{< /discuss >}}

@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+@import "variables";
+@import "mixins";
+@import "print";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-stack;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    color: $body-colour;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 2;
+}
+
+nav {
+    a {
+        font-weight: 600;
+    
+        &:after {
+            content: '\a0>';
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 300;
+}
+
+em {
+    font-style: normal;
+    color: $highlight-colour;
+    font-weight: bolder;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+a {
+    color: $link-colour;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+}
+
+.label {
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.3px;
+    text-align: left;
+}
+
+{{ $header_image := .Site.Params.header_image }}
+{{ $header_image := (trim $header_image "/") | absURL }}
+header {
+    background-color: $header-background-colour;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('{{ $header_image }}');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 500px;
+      
+      @media only screen and (min-width: 600px) {
+          padding: 36px 16px;
+      }
+    }
+
+    h1, h2 {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 1.4px;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: auto;
+      
+        b {
+            font-weight: 600;
+        }
+
+        a, .logo {
+            display: inline-block;
+            color: #fff !important;
+            background: transparent url(images/logo.svg) no-repeat top right;
+            padding: 2px 25px 0 0;
+          
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+            }
+        }
+    }
+    
+    /** Home page header styles */
+    &.home-header {
+
+        .container {
+            min-height: 278px;
+            padding: 0.5em 0 4.5em 0;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 16px auto;
+          
+            @media only screen and (min-width: 600px) {
+                margin: 36px auto 24px;
+            }
+        }
+
+        .lead {
+            font-size: 2.4rem;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: -0.5px;
+            margin: 0 auto;
+            flex-grow: 2;
+            max-width: 300px;
+        }
+    }
+  
+    /** Help Breadcrumb container */
+    .breadcrumb-wrap {
+        background-color: $breadcrumb-colour;
+
+        ul.arrow-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 768px;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 6px 16px;
+            font-size: 1.6rem;
+            letter-spacing: -.3px;
+          
+            @media screen and (min-width: 600px) {
+                padding: 16px 16px;
+                font-size: 2.4rem;
+                letter-spacing: -.5px;
+            }
+
+            li {
+                flex-grow: 1;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+
+                span, a {
+                    flex-grow: 2
+                }
+
+                &:after {
+                    display: inline-block;
+                    content: '>';
+                    margin: 0 0.3em;
+                }
+
+                &:last-child:after {
+                    display: none;
+                    content: '';
+                }
+            }
+        }
+    }
+      
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.tfuk {
+    color: white;
+    background-color: #323232;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+.social {
+    color: $inverse-body-colour;
+    background-color: $footer-background-colour;
+
+    figure {
+        display: inline-block;
+    }
+}
+
+.share {
+    color: $share-colour;
+
+    a {
+        text-decoration: none;
+    
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+
+    h4 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 0 0 8px;
+    }
+
+    svg {
+        display: inline-block;
+        margin: 0 1em 0 1em;
+
+        path {
+            fill: $share-colour;
+        }
+    }
+}
+
+.primary-content, .help-content, .tfuk, .social, .subscribe, .share {
+    text-align: center;
+}
+
+/** Buttons - @todo add to mixin */
+input[type="submit"],
+.button {
+    @include button();
+}
+
+input[type="submit"].button-inverse,
+.button.button-inverse {
+    color: $button-bg-colour;
+    background-color: $button-colour;
+    border: 2px solid $button-bg-colour;
+    padding: 7px;
+}
+
+input[type="submit"].button-block,
+.button.button-block {
+    display: block;
+    width: 100%;
+}
+
+/* Header button */
+input[type="submit"].button-info,
+.button.button-info {
+    box-shadow: none;
+    font-size: 1.4rem;
+    letter-spacing: -.3px;
+    min-width: auto;
+    padding: 4px 6px;
+    margin-bottom: 0;
+  
+    &:focus, &:active, &:hover {
+        margin-top: inherit;
+    }
+  
+    header & {
+        background-color: transparent;
+        border: 1px solid #fff;
+      
+        &:focus, &:active, &:hover {
+            color: $breadcrumb-colour;
+            background-color: #fff;
+        }
+    }
+    
+}
+
+/** To cope with shadow on buttons */
+form {
+    overflow: hidden;
+}
+
+/** For stacked buttons */
+
+.button-content {
+
+    p {
+        margin: 0 0 8px;
+    }
+}
+
+form + form {
+    margin-top: 16px;
+
+    .button-list & {
+        margin-top: 6px;
+    }
+}
+
+/** Home content */
+.primary-content {
+    padding: 35px 16px 48px;
+    text-align: center;
+
+    p {
+        padding: 0 30px;
+        margin: 0 auto 25px;
+    }
+}
+
+.help-content {
+    background-color: $discussion-guide-colour;
+}
+
+.primary-content, .help-content {
+    h2 {
+        font-size: 2.4rem;
+        font-weight: normal;
+        letter-spacing: -.5px;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: -.4px;
+    }
+}
+
+/** Content */
+.page-content {
+
+    text-align: left;
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: normal;
+      letter-spacing: -.4px;
+      margin: 0 auto 17px;
+    }
+
+    p {
+      margin: 0 auto 17px;
+    }
+}
+
+/** Fact Sections */
+.section-header {
+    background-color: $section-header-colour;
+    box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
+    line-height: 1;
+
+    &:first-child {
+        z-index: 10;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+
+        h2, h3, h4 {
+            flex-grow: 2;
+            margin: 13px 0;
+        }
+
+        h2 {
+            font-size: 3.6rem;
+            font-weight: 400;
+            letter-spacing: -.4px;
+        }
+
+        h3, h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -.4px;
+        }
+
+        a {
+            font-size: 1.4rem;
+            font-weight: 600;
+
+            &:after {
+                content: '\a0>';
+            }
+        }
+    }
+}
+
+.fact {
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0 0 8px;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 0 0 1.5em;
+    }
+}
+
+.source {
+    margin: 0 0 1.5em;
+}
+
+.source, .discussion-guide, .help-content {
+    a {
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+.discussion-guide {
+    background-color: $discussion-guide-colour;
+    font-style: italic;
+    padding: 16px;
+    padding-left: 2.5em;
+
+    h4, p, a {
+        font-size: 1.7rem;
+    }
+
+    h4, p {
+        padding: 0px;
+        text-align: left;
+        margin: 0 0 1em;
+    }
+
+    h4 {
+        margin: 0 0 1em;
+        position: relative;
+        font-style: normal;
+    }
+
+    h4:before {
+        content: '';
+        background-image: url("images/speech-bubble.png");
+        background-repeat: no-repeat;
+
+        position: absolute;
+        top: 7px;
+        left: -1.5em;
+        width: 25px;
+        height: 25px;
+        display: block;
+    }
+}

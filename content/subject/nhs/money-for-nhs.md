@@ -15,6 +15,6 @@ Nigel Farage said "I would never had made that claim" regarding the extra £350 
 https://www.independent.co.uk/news/uk/politics/eu-referendum-result-nigel-farage-nhs-pledge-disowns-350-million-pounds-a7099906.html
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 How will we fund the NHS with less money?
-{{% /discuss %}}
+{{< /discuss >}}

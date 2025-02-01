@@ -14,6 +14,6 @@ This shortage means that wages in the construction industry keep going up to try
 These are figures from the Federation of Master Builders, the largest trade association in the UK construction industry. They were published 23 Jan 2018.
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 What is your experience of finding a well paid job in the construction industry?
-{{% /discuss %}}
+{{< /discuss >}}

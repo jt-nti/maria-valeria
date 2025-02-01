@@ -1,8 +1,6 @@
 ---
-title: "TalkAboutBrex"
-description: "A Remainer’s guide to discussing Brexit"
+title: "TalkAboutImmigration"
+description: "A beginner's guide to discussing immigration"
 images:
   - "images/talk-about-brex.png"
 ---
-
-## Choose a subject

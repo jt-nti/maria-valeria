@@ -7,6 +7,6 @@ The UK (like Denmark) has an opt-out which means we don't have to join the Euro.
 
 {{% source "https://www.bbc.co.uk/news/uk-47523168" /%}}
 
-{{% discuss %}}
+{{< discuss >}}
 This an example of where we have more control than most other EU countries.
-{{% /discuss %}}
+{{< /discuss >}}

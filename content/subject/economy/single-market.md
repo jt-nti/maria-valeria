@@ -10,6 +10,6 @@ An overview of the Single Market from the European Commission
 https://ec.europa.eu/growth/single-market_en
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 500 million customers on our doorstep. Surely we should be trying to do more trade with them, not make it harder?
-{{% /discuss %}}
+{{< /discuss >}}

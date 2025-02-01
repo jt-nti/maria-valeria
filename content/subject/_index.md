@@ -1,4 +1,4 @@
 ---
-title: "Change subject"
+title: "Subjects"
 type: subject
 ---

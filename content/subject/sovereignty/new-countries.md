@@ -12,6 +12,6 @@ Any state joining the EU requires unanimous approval of all the existing member 
 
 {{% source "http://theconversation.com/fact-check-would-the-uk-have-a-veto-on-turkey-joining-the-eu-59844" /%}}
 
-{{% discuss %}}
+{{< discuss >}}
 As long as the UK is in the EU, other countries can only join with our approval.
-{{% /discuss %}}
+{{< /discuss >}}

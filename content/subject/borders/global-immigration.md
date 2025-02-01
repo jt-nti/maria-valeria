@@ -12,6 +12,6 @@ The EU has no control over UK Government's immigration policy for the rest of th
 
 {{% source "https://www.gov.uk/check-uk-visa" /%}}
 
-{{% discuss %}}
+{{< discuss >}}
 Do you feel that the EU controls the UK borders?
-{{% /discuss %}}
+{{< /discuss >}}

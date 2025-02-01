@@ -13,6 +13,6 @@ https://www.independent.co.uk/news/uk/politics/eu-workers-uk-tax-treasury-brexit
 https://www.bbc.com/news/uk-45565124
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 Not only do people who come here from the EU fund our public services, their taxes help pay for our public services.
-{{% /discuss %}}
+{{< /discuss >}}

@@ -16,6 +16,6 @@ This is the law as defined by EEA Regulations Article 7:
 http://www.eearegulations.co.uk/CitizensRightsDirective/ByPage/Article_07
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 The UK can impose this EU law, if we want. But how many people from the EU do you think are coming to the UK and not contributing to society?
-{{% /discuss %}}
+{{< /discuss >}}

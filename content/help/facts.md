@@ -4,7 +4,7 @@ type: help
 weight: 60
 ---
 
-{{< talkaboutbrex >}} has key facts at your fingertips, if you need it.
+{{< talkaboutimmigration >}} has key facts at your fingertips, if you need it.
 
 But remember, it's not about being *'right'* or winning an argument.
 

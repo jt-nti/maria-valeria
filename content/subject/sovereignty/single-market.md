@@ -17,6 +17,6 @@ An overview of the Single Market from the European Commission
 https://ec.europa.eu/growth/single-market_en
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 What do you think about the Single Market? What would happen if we didn't have agreed standards in place?
-{{% /discuss %}}
+{{< /discuss >}}

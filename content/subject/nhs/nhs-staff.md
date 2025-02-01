@@ -17,6 +17,6 @@ The number of EU nationals working in NHS is based upon the Government's own fig
 https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7783
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 What has been your experience using the NHS? What would we do without the doctors and nurses from the EU?
-{{% /discuss %}}
+{{< /discuss >}}

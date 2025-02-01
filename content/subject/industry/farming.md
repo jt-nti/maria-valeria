@@ -15,6 +15,6 @@ These figures come from the National Farmers Union
 https://www.nfuonline.com/news/brexit-news/eu-referendum-news/nfu-submits-evidence-on-important-role-of-eu-citizens-in-uk-food-production/
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 Who will pick our fruit and veg if EU workers stop coming to the UK?
-{{% /discuss %}}
+{{< /discuss >}}

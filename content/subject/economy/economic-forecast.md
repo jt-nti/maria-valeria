@@ -21,6 +21,6 @@ Former UK Government Brexit Secretary David Davis narrowly escapes being held in
 https://www.theguardian.com/politics/2017/dec/14/david-davis-rebuked-brexit-impact-papers-contempt-parliament-speaker
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 Imagine if we didn't have to do this. How would you like the government to spend the extra money we'd have from a stronger economy?
-{{% /discuss %}}
+{{< /discuss >}}

@@ -1,9 +1,8 @@
-# Generated files
-dev/
-public/
+# Generated files by hugo
+/public/
+#/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Hugo directories
-# Note: Netlify does not currently support extended sass processing.
-# Workaround is to build locally and commit them for now. Ewwwwwwwwwwwww.
-# resources/
-themes/
+# Temporary lock file while building
+#/.hugo_build.lock

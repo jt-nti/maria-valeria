@@ -1,0 +1,11 @@
+baseURL = "https://jt-nti.github.io/maria-valeria/"
+languageCode = "en-gb"
+title = "Bridges"
+theme = "glienicke"
+[params]
+  title = "Bridges"
+  description = "A beginner's guide to discussing immigration"
+  images = ["images/talk-about-brex.png"]
+  header_image = "/images/leo-sammarco-97559-unsplash.jpg"
+[markup.goldmark.renderer]
+  unsafe = true

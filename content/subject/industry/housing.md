@@ -14,6 +14,6 @@ An overview of the UK housing crisis:
 https://www.bbc.com/news/uk-england-46788530
 {{% /source %}}
 
-{{% discuss %}}
+{{< discuss >}}
 If the EU builders leave or stop coming how will we build the houses we need? What is your experience of finding good, affordable housing?
-{{% /discuss %}}
+{{< /discuss >}}
